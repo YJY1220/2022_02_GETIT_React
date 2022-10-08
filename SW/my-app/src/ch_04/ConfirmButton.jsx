@@ -38,6 +38,7 @@ import { useState } from "react";
 //     }
 // }
 
+
 //3. 함수 컴포넌트 이용하기
 function ConfirmButton(props) {
     //useState() 훅 사용하여 state 처리

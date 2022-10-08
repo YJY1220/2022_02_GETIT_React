@@ -10,6 +10,8 @@ import NotificationList from './ch_03/NotificationList';
 import Accommodate from './ch_03_02/Accommodate';
 import ConfirmButton from './ch_04/ConfirmButton';
 import LandingPage from './ch_04_02/LandingPage';
+import AttendanceBook from './ch_05/AttendanceBook-1';
+import SignUp from './ch_05_02/SignUp-2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -51,9 +53,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 //ch_04_02
+// root.render(
+//   <React.StrictMode>
+//     <LandingPage />
+//   </React.StrictMode>
+// )
+
+//ch_05
+// root.render(
+//   <React.StrictMode>
+//     <AttendanceBook/>
+//   </React.StrictMode>
+// )
+
+//ch_05_02
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <SignUp/>
   </React.StrictMode>
 )
 
