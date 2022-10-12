@@ -12,6 +12,8 @@ import ConfirmButton from './ch_04/ConfirmButton';
 import LandingPage from './ch_04_02/LandingPage';
 import AttendanceBook from './ch_05/AttendanceBook-1';
 import SignUp from './ch_05_02/SignUp-2';
+import Calculator from './ch_06/Calculator';
+import ProfileCard from './ch_06_02/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -67,10 +69,24 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 //ch_05_02
+// root.render(
+//   <React.StrictMode>
+//     <SignUp/>
+//   </React.StrictMode>
+// )
+
+//ch_06
+// root.render(
+//   <React.StrictMode>
+//     <Calculator />
+//   </React.StrictMode>
+// );
+
+//ch_06_02
 root.render(
   <React.StrictMode>
-    <SignUp/>
+    <ProfileCard />
   </React.StrictMode>
-)
+);
 
 reportWebVitals();
