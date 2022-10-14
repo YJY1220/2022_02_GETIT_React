@@ -14,6 +14,7 @@ import AttendanceBook from './ch_05/AttendanceBook-1';
 import SignUp from './ch_05_02/SignUp-2';
 import Calculator from './ch_06/Calculator';
 import ProfileCard from './ch_06_02/ProfileCard';
+import DarkOrLight from './ch_07/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -83,10 +84,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 //ch_06_02
+// root.render(
+//   <React.StrictMode>
+//     <ProfileCard />
+//   </React.StrictMode>
+// );
+
+//ch_07
 root.render(
   <React.StrictMode>
-    <ProfileCard />
-  </React.StrictMode>
+    <DarkOrLight />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 reportWebVitals();
