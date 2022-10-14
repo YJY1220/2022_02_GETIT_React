@@ -91,11 +91,20 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 //ch_07
+//안 돌아가는 코드
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+//ch_07
 root.render(
   <React.StrictMode>
     <DarkOrLight />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
+  //document.getElementById('root')
 );
 
 reportWebVitals();
