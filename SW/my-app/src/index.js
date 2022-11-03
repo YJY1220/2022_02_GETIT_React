@@ -15,6 +15,7 @@ import SignUp from './ch_05_02/SignUp-2';
 import Calculator from './ch_06/Calculator';
 import ProfileCard from './ch_06_02/ProfileCard';
 import DarkOrLight from './ch_07/DarkOrLight';
+import Blocks from './ch_08/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -100,11 +101,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 //ch_07
+// root.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>
+//   //document.getElementById('root')
+// );
+
+//ch_08
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
-  //document.getElementById('root')
-);
+)
 
 reportWebVitals();
